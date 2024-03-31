@@ -1,0 +1,50 @@
+/* CSS for Login Form */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.option {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.google {
+  background-color: #dc4e41;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.google:hover {
+  background-color: #c1382b;
+}
+
+.google a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.google i {
+  margin-right: 10px;
+}
