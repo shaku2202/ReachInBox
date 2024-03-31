@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     signinButton1.addEventListener('click', function() {
       
-      window.location.href = 'https://reachinbox-assignment-4rf9.onrender.com/auth/google';
+      window.location.href = 'https://reachinbox.onrender.com/auth/google';
     });
 
     
