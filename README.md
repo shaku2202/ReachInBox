@@ -16,7 +16,7 @@ This tool is a TypeScript-based application designed to parse and check emails i
 - [BullMQ](https://docs.bullmq.io/)
 
 ## Setup Instructions
-1. **Clone the repository:** `git clone https://github.com/your/repository.git`
+1. **Clone the repository:** `https://github.com/shaku2202/ReachInBox.git`
 2. **Install dependencies:** `npm install`
 3. **Configure OAuth credentials:** Follow the instructions in the OAuth links provided above for Gmail and Outlook.
 4. **Set up OpenAI API:** Get your API key from OpenAI and configure it in the application.
