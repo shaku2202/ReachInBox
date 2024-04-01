@@ -44,9 +44,4 @@ During the assignment review, provide a live demo showcasing:
 - Express.js (for server setup)
 - Nodemailer (for email sending)
 
-## Contributors
-- [Your Name]
-- [Other Contributors]
 
-## License
-This project is licensed under the [Your License] License - see the [LICENSE.md](LICENSE.md) file for details.
