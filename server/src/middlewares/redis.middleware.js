@@ -19,10 +19,6 @@ const connection = new Redis(
       throw new Error(`Error retrieving token from Redis for email ${email}.`);
     }
   };
-  
-
-
-
 
   module.exports = {
     connection,

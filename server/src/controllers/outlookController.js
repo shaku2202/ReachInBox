@@ -2,14 +2,11 @@ const express = require("express");
 const app = express();
 const { Client } = require("@microsoft/microsoft-graph-client");
 require("dotenv").config();
-
 const {
   PublicClientApplication,
   ConfidentialClientApplication,
 } = require("@azure/msal-node");
-
 const outlookRouter = express.Router();
-
 const clientId = process.env.AZURE_CLIENT_ID;
 const clientSecret = process.env.AZURE_CLIENT_SECRET;
 const tenantId = process.env.AZURE_TENANT_ID;

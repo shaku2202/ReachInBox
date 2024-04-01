@@ -1,14 +1,9 @@
 
-
 const { connection } = require("../middlewares/redis.middleware");
 require("dotenv").config();
 const { Queue } = require("bullmq");
-
-
 const sendMailQueue = new Queue("email-queue", { connection });
-
 async function init(body) {
-
   const res = await sendMailQueue.add(
     "Email to the selected User",
     {
@@ -31,7 +26,6 @@ const sendMailViaQueue = async (req, res) => {
     }
     res.send("Mail processing has been queued.");
   };
-  
   
   const sendMultipleEmails = async (req, res) => {
     try {
